@@ -17,3 +17,8 @@
     text-decoration: none;
     color:white;
 }
+
+.name{
+    color:rgb(151, 12, 12);
+    font-weight: bold;
+}
