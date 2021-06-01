@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,44 +34,75 @@
             <img src="imgs/logo.png" alt="" class="hinh">
         </div>
         <div class="col-md-8">
-            <h1>Danh sách môn giảng dạy</h1>
-            <hr>
-            <a class="mon" data-bs-toggle="collapse" href="#mon1" role="button" aria-expanded="false" aria-controls="collapseExample">
-               1. Thiết kế và Quản trị Website
-            </a>
-            <div class="collapse" id="mon1">
-                <div class="card card-body">
-                  <ul>
-                      <li><a href="https://drive.google.com/drive/folders/1ECtNmTV_G_pGpLpCF-J4ykCxbRwm8r4B" target="_blank">Bài tập HTML+CSS</a></li>
-                      <li><a href="https://drive.google.com/drive/folders/1d3gpfPMXKIaJ0sKrtsUjqQrMqb9ok5bt" target="_blank">Bài tập Bootstrap</a></li>
-                      <li><a href="https://drive.google.com/drive/folders/1z-lvWqT53Cm_zMWgKKsIft7CUOp-GOI-" target="_blank">Bài tập Javascript</a></li>
-                      <li><a href="https://drive.google.com/drive/folders/18N3oLvw3SiwusqgVligtmUqabQGWNGox" target="_blank">Slide bài giảng</a></li>
-                  </ul>
-                </div>
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Giảng dạy</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Nghiên cứu</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Dự án</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-khac" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Khác</button>
             </div>
-            <br>
-            <a class="mon" data-bs-toggle="collapse" href="#mon2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                2. Lập trình PHP
-             </a>
-             <div class="collapse" id="mon2">
-                 <div class="card card-body">
-                   <ul>
-                        <li><a href="https://drive.google.com/drive/folders/1Jcf9dsMnKQmh4IxWRnmowPmdTvhhQPyz" target="_blank">Slide bài giảng</a></li>
-                       <li><a href="https://drive.google.com/drive/folders/1wkRQw9UTrT5jLyAtQFJ48tx01gfX67cA" target="_blank">Bài tập có hướng dẫn</a></li>
-                   </ul>
-                 </div>
-             </div>
-             <br>
-            <a class="mon" data-bs-toggle="collapse" href="#mon3" role="button" aria-expanded="false" aria-controls="collapseExample">
-                3. Thiết kế, Cài đặt và Quản trị mạng
-             </a>
-             <div class="collapse" id="mon3">
-                 <div class="card card-body">
-                   <ul>
-                       Đang cập nhật...
-                   </ul>
-                 </div>
-             </div>
+          </nav>
+
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <br>
+                  <h1>Danh sách môn giảng dạy</h1>
+                  <hr>
+                  <a class="mon" data-bs-toggle="collapse" href="#mon1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    1. Thiết kế và Quản trị Website
+                  </a>
+                  <div class="collapse" id="mon1">
+                      <div class="card card-body">
+                        <ul>
+                            <li><a href="https://drive.google.com/drive/folders/1ECtNmTV_G_pGpLpCF-J4ykCxbRwm8r4B" target="_blank">Bài tập HTML+CSS</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1d3gpfPMXKIaJ0sKrtsUjqQrMqb9ok5bt" target="_blank">Bài tập Bootstrap</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1z-lvWqT53Cm_zMWgKKsIft7CUOp-GOI-" target="_blank">Bài tập Javascript</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/18N3oLvw3SiwusqgVligtmUqabQGWNGox" target="_blank">Slide bài giảng</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                  <br>
+                  <a class="mon" data-bs-toggle="collapse" href="#mon2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      2. Lập trình PHP
+                  </a>
+                  <div class="collapse" id="mon2">
+                      <div class="card card-body">
+                        <ul>
+                              <li><a href="https://drive.google.com/drive/folders/1Jcf9dsMnKQmh4IxWRnmowPmdTvhhQPyz" target="_blank">Slide bài giảng</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1wkRQw9UTrT5jLyAtQFJ48tx01gfX67cA" target="_blank">Bài tập có hướng dẫn</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                  <br>
+                  <a class="mon" data-bs-toggle="collapse" href="#mon3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      3. Thiết kế, Cài đặt và Quản trị mạng
+                  </a>
+                  <div class="collapse" id="mon3">
+                      <div class="card card-body">
+                        <ul>
+                            Đang cập nhật...
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  <br>
+                  <ul>
+                    <li>Machine learning</li>
+                    <li>Deep learning</li>
+                    <li>Computer vision</li>
+                  </ul>
+              </div>
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                  <br>
+                  Đang cập nhật dự án
+              </div>
+              <div class="tab-pane fade" id="nav-khac" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <br>
+                Đang cập nhật
+            </div>
+          </div>
+            
         </div>
     </div>
 </div>
