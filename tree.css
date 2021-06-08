@@ -17,15 +17,23 @@ ul, #myUL {
   
   /* Create the caret/arrow with a unicode, and style it */
   .caret::before {
-    content: "\25B6";
+    content: "\002B";
     color: black;
     display: inline-block;
     margin-right: 6px;
+    padding:0px 7px;
+    border:1px solid gray;
   }
   
   /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
   .caret-down::before {
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
+    content: "\002D";
+    color: black;
+    display: inline-block;
+    /* margin-right: 6px; */
+    padding:0px 7px;
+    border:1px solid red;
   }
   
   /* Hide the nested list */
